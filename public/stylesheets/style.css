@@ -1,8 +1,12 @@
-body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+.header{
+  font-family: Arial;
+  font-size: 40pt;
+  font-weight: bold;
+  text-align: center;
 }
 
-a {
-  color: #00B7FF;
+.tennis{
+  width: 82px;
+  height: 87px;
+
 }
