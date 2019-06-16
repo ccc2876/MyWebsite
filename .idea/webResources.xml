@@ -5,7 +5,6 @@
       <entry url="file://$PROJECT_DIR$">
         <entryData>
           <resourceRoots>
-            <path value="file://$PROJECT_DIR$" />
             <path value="file://$PROJECT_DIR$/public/stylesheets" />
             <path value="file://$PROJECT_DIR$/routes" />
             <path value="file://$PROJECT_DIR$/views" />
