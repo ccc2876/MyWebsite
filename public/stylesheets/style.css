@@ -1,12 +1,29 @@
 .header{
-  font-family: Arial;
+  font-family: Palatino, URW Palladio L, serif;
   font-size: 40pt;
   font-weight: bold;
   text-align: center;
 }
 
-.tennis{
-  width: 82px;
-  height: 87px;
+#grid{
+  display:grid;
+  grid-template-columns: repeat(4,1fr);
+  grid-column-gap: 10px;
 
 }
+
+
+.athletics > img, .academics > img, .experience > img, .blog>img{
+  grid-column: 1;
+  grid-row: 1;
+  width: 325px;
+  height:100%;
+}
+
+.athletics > p, .academics > p, .experience > p, .blog> p{
+  text-align: center;
+  text-decoration: underline;
+  font-size: 18pt;
+  font-family:Verdana, Geneva, sans-serif
+}
+
