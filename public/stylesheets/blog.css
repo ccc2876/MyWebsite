@@ -1,0 +1,59 @@
+body {
+    font-family: Palatino, URW Palladio L, serif;
+    background: lavender;
+}
+
+.header {
+    font-size: 40px;
+    text-align: center;
+    background: white;
+}
+.row{
+    display:grid;
+    grid-template-columns: repeat(3,1fr)
+}
+
+.leftcolumn {
+    grid-column: 1 / 2 ;
+    float: left;
+    width: 175%;
+}
+
+.rightcolumn {
+    grid-column:3;
+    float: left;
+    width: 90%;
+    padding-left: 20px;
+}
+
+
+.img {
+    background-image: url("background.jpg");
+    width: 90%;
+    padding: 10px;
+}
+
+/* Add a card effect for articles */
+.card{
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+
+/* Footer */
+.footer {
+    padding: 20px;
+    text-align: center;
+    background: #ddd;
+    margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {
+        width: 100%;
+        padding: 0;
+    }
+}
