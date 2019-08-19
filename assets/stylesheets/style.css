@@ -1,6 +1,13 @@
+
 head ,body {
   background: lavender;
 }
+
+div {
+  resize: both;
+  overflow: auto;
+}
+
 
 .header{
   font-family: Palatino, URW Palladio L, serif;
